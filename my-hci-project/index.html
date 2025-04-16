@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Burger House</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#">
+              <img
+                src="images/logo-dark.png"
+                alt="logo"
+                class="nav__logo-dark"
+              />
+              <img
+                src="images/logo-white.png"
+                alt="logo"
+                class="nav__logo-white"
+              />
+            </a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#special">SPECIAL</a></li>
+          <li><a href="#menu">MENU</a></li>
+          <li><a href="#event">EVENTS</a></li>
+          <li><a href="#contact">CONTACT US</a></li>
+        </ul>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="images/header.png" alt="header" />
+        </div>
+        <div class="header__content">
+          <h2>IT IS GOOD TIME FOR THE GREATE TASTE OF BURGER</h2>
+          <h1>BURGER<br /><span>WEEK</span></h1>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container banner__container" id="special">
+      <div class="banner__card">
+        <p>TRY IT OUT TODAY</p>
+        <h4>MOST POPULAR BURGER</h4>
+      </div>
+      <div class="banner__card">
+        <p>TRY IT OUT TODAY</p>
+        <h4>MORE FUN<br />MORE TASTE</h4>
+      </div>
+      <div class="banner__card">
+        <p>TRY IT OUT TODAY</p>
+        <h4>FRESH & CHILI</h4>
+      </div>
+    </section>
+
+    <section class="section__container order__container" id="menu">
+      <h3>ALWAYS TASTEY BURGER</h3>
+      <h2 class="section__header">CHOOSE & ENJOY</h2>
+      <p class="section__description">
+        Whether you crave classic flavors or daring combinations, this is where
+        your culinary journey begins. Indulge your cravings and savor every bite
+        as you create your personalized burger experience with Burger Company.
+      </p>
+      <div class="order__grid">
+        <div class="order__card">
+          <img src="images/order-1.png" alt="order" />
+          <h4> Chicken Burger</h4>
+          <h5> PHP 399</h5>
+          <p>
+            Sink your teeth into the timeless perfection of our Chicken Burger,
+            an experience that never goes out of style.
+          </p>
+          <a href="#contact" class="btn">BOOK NOW</a>
+
+        </div>
+        <div class="order__card">
+          <img src="images/order-2.png" alt="order" />
+          <h4>Veggie Delight Burger</h4>
+          <h5> PHP 299</h5>
+          <p>
+            Embrace the vibrant flavors of our Veggie Delight Burger, a
+            celebration of freshness and wholesome goodness.
+          </p>
+          <a href="#contact" class="btn">BOOK NOW</a>
+        </div>
+        <div class="order__card">
+          <img src="images/order-3.png" alt="order" />
+          <h4>BBQ Bacon Burger</h4>
+          <h5> PHP 249</h5>
+          <p>
+            Indulge in a symphony of smoky, savory flavors with our BBQ Bacon
+            Burger, grilled and topped with crispy bacon.
+          </p>
+          <a href="#contact" class="btn">BOOK NOW</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container event__container" id="event">
+      <div class="event__content">
+        <div class="event__image">
+          <img src="images/event.jpg" alt="event" />
+        </div>
+        <div class="event__details">
+          <h3>Discover</h3>
+          <h2 class="section__header">UPCOMING EVENTS</h2>
+          <p class="section__description">
+
+            From exclusive burger tastings and chef collaborations to community outreach efforts and seasonal
+            celebrations, there's always something exciting coming up at Gab's. Stay in the loop about our
+            upcoming events, promotions, and gatherings as we continue to spread joy and flavor to our valued
+            customers. Join us in creating unforgettable moments and savoring delicious memories together!
+
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="reservation" id="contact">
+      <div class="section__container reservation__container">
+        <h3>RESERVATION</h3>
+        <h2 class="section__header">BOOK YOUR TABLE</h2>
+        <form action="thank-you.html">
+  <input type="text" name="name" placeholder="NAME" required />
+  <input type="email" name="email" placeholder="EMAIL" required />
+  <input type="date" name="date" required />
+  <input type="time" name="time" required />
+  <input type="number" name="people" placeholder="PEOPLE" min="1" required />
+  <button class="btn" type="submit">FIND TABLE</button>
+</form>
+
+      </div>
+      <img
+        src="images/reservation-bg-1.png"
+        alt="reservation"
+        class="reservation__bg-1"
+      />
+      <img
+        src="images/reservation-bg-2.png"
+        alt="reservation"
+        class="reservation__bg-2"
+      />
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__logo">
+          <img src="images/logo-white.png" alt="logo" />
+        </div>
+        <div class="footer__content">
+          <p>
+            Welcome to Gab's, where a love for extraordinary food and authentic hospitality unite. Our journey is
+            fueled by a commitment to creating the ultimate burger experience, from selecting the highest-quality
+            ingredients to delivering unmatched flavor in every bite.
+
+          </p>
+          <div>
+            <ul class="footer__links">
+              <li>
+                <span>
+                  <a href = "https://maps.app.goo.gl/qgUNGLLveGfzpgkC8"<i class="ri-map-pin-2-fill"></i></span></a>
+                Zayas, Carmen,Cdo
+              </li>
+              <li>
+                <span><a href = "https://mail.google.com/mail/u/0/#inbox?compose=lqrsmCBxHWRSrJPWflZdnxtjpznFGWBVfRQFKpWlRgJtnXPxvDtbCJnSjNwQtwTCKCxCHDhLLdXNKQMrT"<i class="ri-mail-fill"></i></span></a>
+                Gab's@gmail.com
+              </li>
+            </ul>
+            <div class="footer__socials">
+              <a href="https://web.facebook.com/charles.pajela"><i class="ri-facebook-circle-fill"></i></a>
+              <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fcharlesdib_%3Figsh%3DMThxcnhsYnVrMWpoaw%253D%253D%26utm_source%3Dqr%26fbclid%3DIwZXh0bgNhZW0CMTAAAR6yWaAZah9Hunl1CWUS7FXHcwrvciilpRRdIy9oz2Zxod2EJOaQOUa5GXqBXQ_aem_iWXTzBoFp86vzvDRb7xMlg&h=AT3EiBy0Kb7gcqFZ2awFxHJs3ROPdqQfxFqJl4uIv8SHxGvXI3XsbpSOO8GNwlMQx8FHm_JXxTjPJFnk3QUrk46fm7li_HEv0oBLn6yUZcGeeGYbUSLNTBnnV5TGmz7QL-pbv2_C--StqIuLNnQvRQ"><i class="ri-instagram-fill"></i></a>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+              <a href="#"><i class="ri-whatsapp-fill"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2025 Gab's. All rights reserved.
+      </div>
+    </footer>
+
+  </body>
+</html>
